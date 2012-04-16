@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ViewDLEntryDraftsYesTest</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+
+<thead><tr><td rowspan="1" colspan="3">ViewDLEntryDraftsYesTest</td></tr></thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/web/guest/home/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>link=Documents and Media Test Page</td>
+	<td>Documents and Media Test Page</td>
+</tr>
+<tr>
+	<td>clickAtAndWait</td>
+	<td>link=Documents and Media Test Page</td>
+	<td>Documents and Media Test Page</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//span[@title='Add']/ul/li/strong/a/span</td>
+	<td>Add</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//span[@title='Add']/ul/li/strong/a/span</td>
+	<td>Add</td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>link=Basic Document</td>
+	<td>Basic Document</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Basic Document</td>
+	<td>Basic Document</td>
+</tr>
+<tr>
+	<td>clickAtAndWait</td>
+	<td>link=Basic Document</td>
+	<td>Basic Document</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[6]/span[1]/span/input</td>
+	<td>Save as Draft</td>
+</tr>
+
+</tbody>
+</table>
+</body>
+</html>
